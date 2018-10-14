@@ -32,7 +32,7 @@ type REXPaintImage* = ref object
   version*: int32
   width*: int32
   height*: int32
-  layers: seq[seq[REXPaintCell]]
+  layers*: seq[seq[REXPaintCell]]
 proc newREXPaintImage*(filename: string): REXPaintImage =
   # exercise .xp parse
   let compressedBytes = readFile(filename)
