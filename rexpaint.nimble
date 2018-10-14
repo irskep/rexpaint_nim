@@ -1,7 +1,7 @@
 # Package
 
 version       = "1.0.0"
-author        = "Steve Johnson"
+author        = "Steve Landey (irskep)"
 description   = "REXPaint .xp parser"
 license       = "MIT"
 srcDir        = "src"
